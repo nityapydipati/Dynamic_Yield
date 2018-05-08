@@ -1,0 +1,45 @@
+body {
+	height: 100%;
+	background: black;
+	width: 100%;
+}
+
+.add-btn {
+	color: green;
+	font-size: 10em;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	right: 10px;
+	top: 20px;
+	z-index: 10;
+}
+
+.plus:hover {
+	cursor: pointer;
+}
+
+.iframe-container {
+	display: inline-block;
+	height: 132px;
+	margin: 0 22px 0 2px;
+	position: relative;
+	width: 230px;
+}
+
+.deleteFrame {
+	position: absolute;
+	right: -15px;
+	text-decoration: none;
+	top: 3px;
+}
+
+
+.iframe {
+	border: 1px solid blue;
+	height: 150px;
+	margin: 1px;
+	position: relative;
+    width: 250px;
+	z-index: -2;
+}

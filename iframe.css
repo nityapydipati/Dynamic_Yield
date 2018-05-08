@@ -1,0 +1,53 @@
+*{box-sizing: border-box;}
+
+body {
+	background: lightblue;
+	font-size: 0.85em;
+	margin: 0;
+	padding: 17px 2% 2% 2%;		
+}
+
+.comments {
+	height: 105px;
+	list-style-type: none;
+	margin: 0;
+	overflow-y: auto;
+	padding: 0;
+}
+
+.comments strong {
+	font-size: 0.95em;
+}
+
+.form {
+	border: 1px solid;
+	bottom: 0;
+	display: flex;
+	justify-content: space-around;
+	left: 0;
+	margin: 1% 2%;
+	padding: 0;
+	position: fixed;
+	width: 100%;
+}
+
+.label {
+	font-size: 0.95em;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+
+.msg {
+	background: transparent;
+	border: none;
+	flex-basis: 80px;
+	margin: 0;
+	padding: 0;
+	width: 130px;
+}
+
+.msg:focus, .msg:active {
+	outline: unset;
+}
+
